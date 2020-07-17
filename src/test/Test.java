@@ -1,12 +1,11 @@
 package test;
-
+import com.mymain.Dog;
 import java.io.*;
 import java.util.regex.*;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
-
 import java.util.Iterator;
 
 public class Test implements Animal{
@@ -259,4 +258,38 @@ public class Test implements Animal{
              System.out.println(inputArray);
      }
 
+     //序列化
+    public void handleSeralize(){
+        Dog dog = new Dog("小狗");
+        try{
+            FileOutputStream toSeralize = new FileOutputStream("C:/Users/RYX/Desktop/a.txt");
+            ObjectOutputStream outSeralize = new ObjectOutputStream(toSeralize);
+            outSeralize.writeObject(dog);
+            outSeralize.close();
+            toSeralize.close();
+            System.out.println("Seralize data is saved in seralize/dog.ser");
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
+        Dog dogObject = null;
+        try
+        {
+            FileInputStream fileIn = new FileInputStream("C:/Users/RYX/Desktop/a.txt");
+            ObjectInputStream in = new ObjectInputStream(fileIn);
+            dogObject = (Dog) in.readObject();
+            in.close();
+            fileIn.close();
+        }catch(IOException i)
+        {
+            i.printStackTrace();
+            return;
+        }catch(ClassNotFoundException c)
+        {
+            System.out.println("Employee class not found");
+            c.printStackTrace();
+            return;
+        }
+        System.out.println(dogObject.name);
+    }
 }

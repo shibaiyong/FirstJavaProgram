@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class HelloWord {
     public static void main(String[] args) throws IOException{
-//        Dog dog = new Dog("小狗");
+        //Dog dog = new Dog("小狗");
         //dog.getAge();
         //Dog.wang();
 
@@ -83,10 +83,12 @@ public class HelloWord {
         Integer[] intArray = { 1, 2, 3, 4, 5 };
         Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
         Character[] charArray = { 'H', 'E', 'L', 'L', 'O' };
-        test.printArray(intArray);
-        test.printArray(doubleArray);
-        test.printArray(charArray);
+        //test.printArray(intArray);
+        //test.printArray(doubleArray);
+        //test.printArray(charArray);
 
+        //序列化
+        test.handleSeralize();
 
     }
 }

@@ -3,12 +3,13 @@ package com.mymain;
 import  java.util.Date;
 import java.text.*;
 import test.Test;
+import java.io.Serializable;
 
-public class Dog {
+public class Dog implements Serializable {
 
 //    一个类可以有多个构造方法，在创建对象的时候至少调用一个构造方法;
     private int age = 4;
-    String name;
+    public String name;
     public Dog(){
         System.out.println("这是第一个构造器");
     }
