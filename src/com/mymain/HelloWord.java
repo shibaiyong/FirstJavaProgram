@@ -1,5 +1,6 @@
 package com.mymain;
 import test.Test;
+import test.SendMail;
 import java.util.Arrays;
 import  java.util.Date;
 import java.text.*;
@@ -88,7 +89,8 @@ public class HelloWord {
         //test.printArray(charArray);
 
         //序列化
-        test.handleSeralize();
-
+        //test.handleSeralize();
+        SendMail sendmail = new SendMail();
+        sendmail.send();
     }
 }
