@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (cllgeek)
+.idea/
+*.log
+node_modules
+node-demo/node_modules/*
+angular-demo/node_modules/*
+
