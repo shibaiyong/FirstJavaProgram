@@ -3,6 +3,7 @@ import test.GreetClient;
 import test.GreetServer;
 
 import test.Test;
+import test.SendMail;
 import java.util.Arrays;
 import  java.util.Date;
 import java.text.*;
@@ -95,11 +96,9 @@ public class HelloWord {
 
         //序列化
         //test.handleSeralize();
-
         //sockt 网络编程
-
-        greetserver.run();
-
-
+        //greetserver.run();
+        SendMail sendmail = new SendMail();
+        sendmail.send();
     }
 }
