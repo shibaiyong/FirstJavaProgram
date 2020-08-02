@@ -7,13 +7,24 @@ import javax.activation.*;
 public class SendMail {
 
     private String to = "MrShiEmail@163.com";
-    private String from = "web@gmail.com";
-    private String host = "localhost";
+    private String from = "1850418798@qq.com";
+    private String host = "smtp.qq.com";
 
     public void send(){
         Properties properties = System.getProperties();
         properties.setProperty("mail.smtp.host",host);
-        Session session = Session.getDefaultInstance(properties);
+        //properties.setProperty("mail.host", host);
+        properties.setProperty("mail.transport.protocol", "smtp");
+        properties.setProperty("mail.smtp.auth", "true");
+        properties.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+        properties.setProperty("mail.smtp.port", "465");
+        properties.setProperty("mail.smtp.socketFactory.port", "465");
+        Session session = Session.getDefaultInstance(properties,new Authenticator(){
+            public PasswordAuthentication getPasswordAuthentication()
+            {
+                return new PasswordAuthentication("1850418798@qq.com", "bvegympoybeicfff"); //发件人邮件用户名、授权码
+            }
+        });
         try{
             // 创建默认的 MimeMessage 对象
             MimeMessage message = new MimeMessage(session);

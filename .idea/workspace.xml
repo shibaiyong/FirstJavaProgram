@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128ecb4f-349d-4ef7-825b-a5342e18937e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstJavaProgram/test/SendMail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SendMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FirstJavaProgram/.idea/FirstJavaProgram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstJavaProgram/.idea/FirstJavaProgram.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstJavaProgram/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstJavaProgram/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstJavaProgram/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FirstJavaProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstJavaProgram/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FirstJavaProgram/com/mymain/HelloWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstJavaProgram/com/mymain/HelloWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymain/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mymain/HelloWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstJavaProgram/test/SendMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstJavaProgram/test/SendMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SendMail.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +18,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloWord.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mymain/HelloWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="93" column="39" lean-forward="true" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+            <state relative-caret-position="519">
+              <caret line="100" column="43" lean-forward="true" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendMail.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/SendMail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#472#691#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mymain/SubTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -61,8 +83,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/test/SendMail.java" />
         <option value="$PROJECT_DIR$/src/com/mymain/HelloWord.java" />
+        <option value="$PROJECT_DIR$/src/test/SendMail.java" />
       </list>
     </option>
   </component>
@@ -105,18 +127,6 @@
             </path>
             <path>
               <item name="FirstJavaProgram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstJavaProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mymain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstJavaProgram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstJavaProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstJavaProgram" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -129,10 +139,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Download/javax.mail-1.6.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mail.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -209,7 +219,7 @@
       <workItem from="1594974288840" duration="2686000" />
       <workItem from="1595208293820" duration="543000" />
       <workItem from="1595208845397" duration="9000" />
-      <workItem from="1596361151976" duration="59000" />
+      <workItem from="1596361151976" duration="5934000" />
     </task>
     <task id="LOCAL-00001" summary="shibaiyong change">
       <created>1595227421695</created>
@@ -222,14 +232,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11429000" />
+    <option name="totallyTimeSpent" value="17304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="10" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.4283154" />
       <window_info anchor="right" id="Palette&#9;" order="14" />
       <window_info id="Image Layers" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="11" />
@@ -241,21 +251,20 @@
       <window_info anchor="bottom" id="Terminal" order="15" />
       <window_info id="Capture Tool" order="11" />
       <window_info id="Designer" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2613941" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2613941" />
       <window_info anchor="right" id="Database" order="13" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="12" />
       <window_info anchor="right" id="Theme Preview" order="12" />
       <window_info id="Favorites" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.10271041" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.4283154" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +282,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2790">
           <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -290,7 +302,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mymain/HelloWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1953" />
+        <state relative-caret-position="-1953">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mymain/SubTest.java">
@@ -413,9 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymain/SubTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Animal.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -426,14 +439,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymain/HelloWord.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mymain/SubTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="93" column="39" lean-forward="true" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+        <state relative-caret-position="90">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SendMail.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/FirstJavaProgram/com/mymain/HelloWord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#1167#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/FirstJavaProgram/com/mymain/SubTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <folding>
+            <element signature="e#0#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mymain/HelloWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="100" column="43" lean-forward="true" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SendMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#472#691#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
