@@ -262,7 +262,7 @@ public class Test implements Animal{
     public void handleSeralize(){
         Dog dog = new Dog("小狗");
         try{
-            FileOutputStream toSeralize = new FileOutputStream("C:/Users/RYX/Desktop/a.txt");
+            FileOutputStream toSeralize = new FileOutputStream("E:/data/a.txt");
             ObjectOutputStream outSeralize = new ObjectOutputStream(toSeralize);
             outSeralize.writeObject(dog);
             outSeralize.close();
@@ -275,7 +275,7 @@ public class Test implements Animal{
         Dog dogObject = null;
         try
         {
-            FileInputStream fileIn = new FileInputStream("C:/Users/RYX/Desktop/a.txt");
+            FileInputStream fileIn = new FileInputStream("E:/data/a.txt");
             ObjectInputStream in = new ObjectInputStream(fileIn);
             dogObject = (Dog) in.readObject();
             in.close();

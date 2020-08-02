@@ -1,4 +1,7 @@
 package com.mymain;
+import test.GreetClient;
+import test.GreetServer;
+
 import test.Test;
 import java.util.Arrays;
 import  java.util.Date;
@@ -8,6 +11,9 @@ import java.io.IOException;
 
 public class HelloWord {
     public static void main(String[] args) throws IOException{
+        Test test = new Test();
+        Test subtest = new SubTest();
+        GreetServer greetserver = new GreetServer(1234);
         //Dog dog = new Dog("小狗");
         //dog.getAge();
         //Dog.wang();
@@ -38,7 +44,7 @@ public class HelloWord {
 //        Dog.dateparse(new String[]{"2017-12-01"});
 
         //java正则表达式
-        Test test = new Test();
+
 
         //test.RegExpression();
 
@@ -60,7 +66,7 @@ public class HelloWord {
         //System.out.println("异常中断了程序的执行");
 
         //继承super的用法。
-        Test subtest = new SubTest();
+
         //System.out.println(subtest.age);
 
         //重写
@@ -88,7 +94,12 @@ public class HelloWord {
         //test.printArray(charArray);
 
         //序列化
-        test.handleSeralize();
+        //test.handleSeralize();
+
+        //sockt 网络编程
+
+        greetserver.run();
+
 
     }
 }
