@@ -22,7 +22,7 @@ public class SendMail {
         Session session = Session.getDefaultInstance(properties,new Authenticator(){
             public PasswordAuthentication getPasswordAuthentication()
             {
-                return new PasswordAuthentication("1850418798@qq.com", "bvegympoybeicfff"); //发件人邮件用户名、授权码
+                return new PasswordAuthentication("1850418798@qq.com", ""); //发件人邮件用户名、授权码
             }
         });
         try{
